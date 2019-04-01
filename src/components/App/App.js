@@ -23,7 +23,6 @@ class App extends Component {
         <div className="appContainer">
           <div className="navbarDiv">
             <Header lang = {lang} />
-            {console.log(lang)}
           </div>
           <div className="leftBody scrollable">
             <p>The standard Lorem Ipsum passage, used since the 1500s
