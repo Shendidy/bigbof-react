@@ -16,7 +16,7 @@ const text = [
   {
     id : 2,
     english : "You might give hackers access to your account if you're not careful.",
-    arabic : "قد تمنح المتسللين حق الوصول إلى حسابك إذا لم تكن حذراً.ً",
+    arabic : "قد تمنح المتسللين حق الوصول إلى حسابك إذا لم تكن حذراً.",
     russian: "Вы можете дать хакерам доступ к своей учетной записи, если вы не будете осторожны.",
     czech: "Pokud nejste opatrní, můžete hackerům umožnit přístup k vašemu účtu."
   },
@@ -43,10 +43,10 @@ const text = [
   },
   {
     id : 6,
-    english : "",
-    arabic : "",
-    russian: "",
-    czech: ""
+    english : "All Rights Reserved",
+    arabic : "كل الحقوق محفوظة",
+    russian: "Все права защищены",
+    czech: "Všechna práva vyhrazena"
   },
   {
     id : 7,

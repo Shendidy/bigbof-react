@@ -8,7 +8,7 @@ body, html {
 }
 
 .mainContainer {
-  background-color: lightyellow;
+  /* background-color: lightyellow; */
   height: 100vh;
   position: relative;
 }
@@ -17,7 +17,7 @@ body, html {
   height: 100%;
   width: 80%;
   margin: auto;
-  background-color: lightblue;
+  /* background-color: lightblue; */
 }
 
 .navbarDiv {
@@ -31,7 +31,7 @@ body, html {
 .leftBody {
   margin-top: 2px;
   margin-left: 2px;
-  background-color: lightyellow;
+  /* background-color: lightyellow; */
   width: 25%;
   max-height: 80%;
   padding-left: 3px;
@@ -41,7 +41,7 @@ body, html {
 .rightBody {
   margin-top: 2px;
   margin-right: 2px;
-  background-color: red;
+  /* background-color: red; */
   width: 68%;
   height: 80%;
   float: right;
@@ -50,27 +50,28 @@ body, html {
 .rightTopContent {
   height: 20%;
   padding-left: 3px;
-  background-color: white;
+  /* background-color: white; */
 }
 
 .rightMainContent {
-  height: 80%;
+  height: 79.5%;
   padding-left: 3px;
-  background-color: blue;
+  /* background-color: blue; */
+  margin-top: 0.5%;
 }
 
 .footerDiv {
   height: 50px;
   max-height: 10%;
   width: 80%;
-  background-color: lightgreen;
+  /* background-color: lightgreen; */
   position: absolute;
   bottom: 0;
   text-align: center;
 }
 
 .footerContentDiv {
-  background-color: green;
+  /* background-color: green; */
   position: absolute;
   bottom: 0;
   width: 100%;
