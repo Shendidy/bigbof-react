@@ -2,6 +2,8 @@ import React from 'react';
 import './header.css';
 import text from '../../languages/text';
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+
 function Header(props) {
   return(
     <div>
@@ -10,6 +12,9 @@ function Header(props) {
       </div>
       <div className="navbarLinks">
         <div className="languageDiv">
+          <div className="fontawesomeGlobe">
+            <FontAwesomeIcon icon="globe" />
+          </div>
           <select>
             <option value="" disabled selected>{text[5][props.lang]}</option>
             <option value="english">English</option>
