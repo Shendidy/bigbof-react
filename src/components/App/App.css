@@ -1,4 +1,19 @@
-.App {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .App {
   text-align: center;
 }
 
@@ -8,20 +23,40 @@
   pointer-events: none;
 }
 
-.App-header {
-  background-color: yellow;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
 .App-link {
   color: #61dafb;
 }
+
+.main-body {
+  width: 80%;
+  margin-left: 10%;
+  background-color: blue;
+  position: fixed;
+}
+
+.bodyContainer {
+  width: 100%;
+  height: 100%;
+  margin-top: 70px;
+}
+
+.leftBodyContainer {
+
+}
+.rightBodyContainer {
+  width: 70%;
+  float: right;
+  max-height: 600px;
+  overflow-y: auto;
+  background-color: red;
+
+}
+
+.scrollable {
+  height:90%;
+  overflow-y: auto;
+}
+
 
 @keyframes App-logo-spin {
   from {
@@ -30,4 +65,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */

@@ -1,0 +1,78 @@
+body, html {
+  height: 100%;
+}
+
+.scrollable {
+  overflow-y: auto;
+  padding-right: 10px;
+}
+
+.mainContainer {
+  background-color: lightyellow;
+  height: 100vh;
+  position: relative;
+}
+
+.appContainer {
+  height: 100%;
+  width: 80%;
+  margin: auto;
+  background-color: lightblue;
+}
+
+.navbarDiv {
+  height: 50px;
+  max-height: 10%;
+  width: 100%;
+  background-color: lightgrey;
+  text-align: center;
+}
+
+.leftBody {
+  margin-top: 2px;
+  margin-left: 2px;
+  background-color: lightyellow;
+  width: 25%;
+  max-height: 80%;
+  padding-left: 3px;
+  float: left;
+}
+
+.rightBody {
+  margin-top: 2px;
+  margin-right: 2px;
+  background-color: red;
+  width: 68%;
+  height: 80%;
+  float: right;
+}
+
+.rightTopContent {
+  height: 25%;
+  padding-left: 3px;
+  background-color: white;
+}
+
+.rightMainContent {
+  height: 75%;
+  padding-left: 3px;
+  background-color: blue;
+}
+
+.footerDiv {
+  height: 50px;
+  max-height: 10%;
+  width: 80%;
+  background-color: lightgreen;
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+}
+
+.footerContentDiv {
+  background-color: green;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
