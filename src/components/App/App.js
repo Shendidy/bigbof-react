@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Header from '../Header/Header';
 import './App.css';
 
 class App extends Component {
@@ -7,9 +8,11 @@ class App extends Component {
     console.log("%cSTOP!\n\n%cPlease don't change anything here unless you know what you're doing.\n\nYou might give hackers access to your account if you're not careful.\n\n\nGood luck,\nbigBOF.com team.", "color: red; font-size: 25px;", "color: blue; font-size: 15px;");
 
     return (
-      "bigBOF.com shall be here soon!"
-    );
+      <main-body>
+        <Header />
+      </main-body>
+    )
   }
 }
 
-export default App;
+export default App
