@@ -10,7 +10,13 @@ function Header(props) {
       </div>
       <div className="navbarLinks">
         <div className="languageDiv">
-          {text[5][props.lang]}
+          <select>
+            <option value="" disabled selected>{text[5][props.lang]}</option>
+            <option value="english">English</option>
+            <option value="arabic">عربى</option>
+            <option value="russian">русский</option>
+            <option value="czech">čeština</option>
+          </select>
         </div>
       </div>
     </div>

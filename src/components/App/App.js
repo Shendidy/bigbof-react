@@ -6,7 +6,7 @@ import './App.css';
 
 class App extends Component {
   render() {
-    let lang = 'arabic';
+    let lang = 'english';
     // Message for people accessing the console after loading the page.
     console.log(`%c${text[0][lang]}\n\n%c${text[1][lang]}\n\n${text[2][lang]}\n\n\n${text[3][lang]}\n${text[4][lang]}\n\n`, "color: red; font-size: 25px;", "color: blue; font-size: 15px;");
 
@@ -15,6 +15,7 @@ class App extends Component {
         <div className="appContainer">
           <div className="navbarDiv">
             <Header lang = {lang} />
+            {console.log(lang)}
           </div>
           <div className="leftBody scrollable">
             <p>The standard Lorem Ipsum passage, used since the 1500s
