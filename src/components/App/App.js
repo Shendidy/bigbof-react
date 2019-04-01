@@ -89,7 +89,7 @@ class App extends Component {
             <table className="freePlayTable">
               <tbody>
                 <tr>
-                  <td><h1>{text[8][this.state.language]}</h1></td>
+                  <td><h2>{text[8][this.state.language]}</h2></td>
                   <td><small>{text[9][this.state.language]}</small></td>
                 </tr>
               </tbody>
