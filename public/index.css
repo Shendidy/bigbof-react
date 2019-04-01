@@ -48,13 +48,13 @@ body, html {
 }
 
 .rightTopContent {
-  height: 25%;
+  height: 20%;
   padding-left: 3px;
   background-color: white;
 }
 
 .rightMainContent {
-  height: 75%;
+  height: 80%;
   padding-left: 3px;
   background-color: blue;
 }

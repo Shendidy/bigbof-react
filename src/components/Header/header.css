@@ -6,22 +6,22 @@
   position: fixed;
   padding-bottom: 5px;
   padding-top: 0px;
-}
+} */
 
 .logoDiv {
   width: 180px;
   float: left;
+  max-height: 30px;
 }
-
 .navbarLinks {
   float: right;
 }
 
-.usernameDiv {
+.languageDiv {
   padding: 10px;
   margin-bottom: 10px;
 }
 
 .logoImg {
-  margin-top: -5px;
-} */
+  margin-top: -8px;
+}

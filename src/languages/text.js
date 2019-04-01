@@ -36,10 +36,10 @@ const text = [
   },
   {
     id : 5,
-    english : "Username",
-    arabic : "اسم المستخدم",
-    russian: "имя пользователя",
-    czech: "Uživatelské jméno"
+    english : "Language",
+    arabic : "لغة",
+    russian: "язык",
+    czech: "Jazyk"
   },
   {
     id : 6,

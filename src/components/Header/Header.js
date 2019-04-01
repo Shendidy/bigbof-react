@@ -9,7 +9,7 @@ function Header(props) {
         <img className="logoImg" src={"./img/bigBOFcom(360x120).png"} alt='bigBOF.com' width='180' height='60'/>
       </div>
       <div className="navbarLinks">
-        <div className="usernameDiv">
+        <div className="languageDiv">
           {text[5][props.lang]}
         </div>
       </div>
