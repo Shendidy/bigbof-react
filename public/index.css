@@ -28,8 +28,16 @@ body, html {
   text-align: center;
 }
 
+.freeText{
+  margin-top: -20px;
+  width: 100%;
+  /* background-color: red; */
+  text-align: center;
+  color: blue;
+}
+
 .leftBody {
-  margin-top: 2px;
+  /* margin-top: 2px; */
   margin-left: 2px;
   /* background-color: lightyellow; */
   width: 25%;
@@ -39,7 +47,7 @@ body, html {
 }
 
 .rightBody {
-  margin-top: 2px;
+  /* margin-top: 2px; */
   margin-right: 2px;
   /* background-color: red; */
   width: 68%;
@@ -57,7 +65,7 @@ body, html {
   height: 79.5%;
   padding-left: 3px;
   /* background-color: blue; */
-  margin-top: 0.5%;
+  /* margin-top: 0.5%; */
 }
 
 .footerDiv {

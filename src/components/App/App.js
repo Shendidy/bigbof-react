@@ -6,7 +6,7 @@ import './App.css';
 
 // Fontawesome
 import { library } from '@fortawesome/fontawesome-svg-core'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGlobe } from '@fortawesome/free-solid-svg-icons'
 
 library.add(faGlobe)
@@ -36,13 +36,23 @@ class App extends Component {
     </select>;
 
     // Message for people accessing the console after loading the page.
-    console.log(`%c${text[1][this.state.language]}\n\n%c${text[2][this.state.language]}\n\n${text[3][this.state.language]}\n\n\n${text[4][this.state.language]}\n${text[5][this.state.language]}\n\n`, "color: red; font-size: 25px;", "color: blue; font-size: 15px;");
+    console.log(`%c${text[1][this.state.language]}\n\n%c${text[2][this.state.language]}\n\n${text[3][this.state.language]}\n\n\n${text[4][this.state.language]}\n${text[5][this.state.language]}\n\n`, "color: red; font-size: 35px;", "color: blue; font-size: 15px;");
 
     return (
       <div className="mainContainer">
         <div className="appContainer">
           <div className="navbarDiv">
             <Header lang={this.state.language} selCol={selCol}/>
+          </div>
+          <div className="freeText">
+            <table className="freePlayTable">
+              <tbody>
+                <tr>
+                  <td><h1>{text[8][this.state.language]}</h1></td>
+                  <td><small>{text[9][this.state.language]}</small></td>
+                </tr>
+              </tbody>
+            </table>
           </div>
           <div className="leftBody scrollable">
             <p>The standard Lorem Ipsum passage, used since the 1500s
