@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import App from '../App/App';
 import './header.css';
 import text from '../../languages/text';
 
@@ -6,19 +7,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 // function Header(props) {
 class Header extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      language: this.props.lang
-    };
-
-    this.handleChange = this.handleChange.bind(this);
-  }
-
-  handleChange(e) {
-    this.state.language = e.target.value;
-    console.log(this.state.language);
-  }
 
   render() {
     return(
@@ -31,15 +19,7 @@ class Header extends Component {
             <div className="fontawesomeGlobe">
               <FontAwesomeIcon icon="globe" />
             </div>
-            <select
-              onChange={this.handleChange}
-            >
-              <option defaultValue="english" disabled selected>{text[5][this.props.lang]}</option>
-              <option value="english">English</option>
-              <option value="arabic">عربى</option>
-              <option value="russian">русский</option>
-              <option value="czech">čeština</option>
-            </select>
+            {this.props.selCol}
           </div>
         </div>
       </div>

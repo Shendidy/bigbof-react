@@ -6,7 +6,7 @@ function Footer(props) {
   return(
     <div>
       <div className="copyrightDiv">
-        {`© bigBOF.com ${text[6][props.lang]}!`}
+        {`© bigBOF.com ${text[7][props.lang]}!`}
       </div>
     </div>
   )

@@ -13,16 +13,36 @@ library.add(faGlobe)
 
 
 class App extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      language: 'english'
+    };
+
+    this.handleChange = this.handleChange.bind(this);
+  }
+
+  handleChange(e) {
+    this.setState({ language : e.target.value });
+  }
+
   render() {
-    let lang = 'english';
+    let selCol = <select onChange={this.handleChange}>
+      <option defaultValue="english" disabled selected>{text[6][this.state.language]}</option>
+      <option value="english">English</option>
+      <option value="arabic">عربى</option>
+      <option value="russian">русский</option>
+      <option value="czech">čeština</option>
+    </select>;
+
     // Message for people accessing the console after loading the page.
-    console.log(`%c${text[0][lang]}\n\n%c${text[1][lang]}\n\n${text[2][lang]}\n\n\n${text[3][lang]}\n${text[4][lang]}\n\n`, "color: red; font-size: 25px;", "color: blue; font-size: 15px;");
+    console.log(`%c${text[1][this.state.language]}\n\n%c${text[2][this.state.language]}\n\n${text[3][this.state.language]}\n\n\n${text[4][this.state.language]}\n${text[5][this.state.language]}\n\n`, "color: red; font-size: 25px;", "color: blue; font-size: 15px;");
 
     return (
       <div className="mainContainer">
         <div className="appContainer">
           <div className="navbarDiv">
-            <Header lang = {lang} />
+            <Header lang={this.state.language} selCol={selCol}/>
           </div>
           <div className="leftBody scrollable">
             <p>The standard Lorem Ipsum passage, used since the 1500s
@@ -126,7 +146,7 @@ class App extends Component {
           </div>
           <div className="footerDiv">
             <div className="footerContentDiv">
-              <Footer lang = {lang} />
+              <Footer lang={this.state.language} />
             </div>
           </div>
         </div>
