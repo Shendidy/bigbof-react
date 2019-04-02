@@ -29,10 +29,51 @@ class App extends Component {
   render() {
     let selCol = <select onChange={this.handleChange}>
       <option defaultValue="english" disabled selected>{text[6][this.state.language]}</option>
-      <option value="english">English</option>
       <option value="arabic">عربى</option>
-      <option value="russian">русский</option>
+      <option value="bangla">বাংলা</option>
+      <option value="bulgarian">български</option>
+      <option value="chinese">中文</option>
+      <option value="croatian">Hrvatski</option>
       <option value="czech">čeština</option>
+      <option value="danish">dansk</option>
+      <option value="dutch">Nederlands</option>
+      <option value="english">English</option>
+      <option value="filipino">filipino</option>
+      <option value="finnish">Suomalainen</option>
+      <option value="french">français</option>
+      <option value="german">Deutsche</option>
+      <option value="greek">Ελληνικά</option>
+      <option value="hebrew">עברית</option>
+      <option value="hindi">हिंदी</option>
+      <option value="hungarian">Magyar</option>
+      <option value="indonesian">bahasa Indonesia</option>
+      <option value="italian">italiano</option>
+      <option value="japanese">日本人</option>
+      <option value="korean">한국어</option>
+      <option value="kurdish">Kurdî</option>
+      <option value="latvian">latviešu</option>
+      <option value="lithuanian">lietuviškai</option>
+      <option value="maltese">maltese</option>
+      <option value="nepali">nepali</option>
+      <option value="norwegian">norsk</option>
+      <option value="persian">فارسی</option>
+      <option value="polish">Polskie</option>
+      <option value="portuguese">Português</option>
+      <option value="punjabi">ਪੰਜਾਬੀ</option>
+      <option value="romanian">Română</option>
+      <option value="russian">русский</option>
+      <option value="slovak">slovenský</option>
+      <option value="slovenian">Slovenščina</option>
+      <option value="somali">somali</option>
+      <option value="spanish">Español</option>
+      <option value="swedish">svenska</option>
+      <option value="tamil">தமிழ்</option>
+      <option value="telugu">తెలుగు</option>
+      <option value="thai">ไทย</option>
+      <option value="turkish">Türk</option>
+      <option value="ukrainian">українська</option>
+      <option value="urdu">اردو</option>
+      <option value="uzbek">Uzbek</option>
     </select>;
 
     // Message for people accessing the console after loading the page.
