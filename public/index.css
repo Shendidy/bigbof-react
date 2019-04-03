@@ -1,4 +1,11 @@
 body, html {
+  background-image: url(/img/bg1.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: block;
+  margin: 0px;
+  text-align: center;
   height: 100%;
 }
 
