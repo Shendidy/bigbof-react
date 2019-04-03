@@ -11,7 +11,6 @@ import { faGlobe } from '@fortawesome/free-solid-svg-icons'
 
 library.add(faGlobe)
 
-
 class App extends Component {
   constructor(props) {
     super(props);
@@ -27,6 +26,9 @@ class App extends Component {
   }
 
   render() {
+    // Don't show errors in console!
+    console.warn = console.error = () => {};
+
     let selCol =
       <select onChange={this.handleChange}>
       <option value="arabic">عربى</option>
