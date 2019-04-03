@@ -27,7 +27,8 @@ class App extends Component {
   }
 
   render() {
-    let selCol = <select onChange={this.handleChange}>
+    let selCol =
+      <select onChange={this.handleChange}>
       <option value="arabic">عربى</option>
       <option value="bangla">বাংলা</option>
       <option value="bulgarian">български</option>
@@ -73,7 +74,7 @@ class App extends Component {
       <option value="ukrainian">українська</option>
       <option value="urdu">اردو</option>
       <option value="uzbek">Uzbek</option>
-    </select>;
+      </select>;
 
     // Message for people accessing the console after loading the page.
     console.log(`Current language is ${this.state.language}`)

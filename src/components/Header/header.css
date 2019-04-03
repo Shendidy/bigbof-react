@@ -8,10 +8,17 @@
 }
 
 .languageDiv {
-  padding: 10px;
-  margin-bottom: 10px;
+  padding-right: 15px;
+}
+
+.languageDiv small{
+  color: white;
 }
 
 .logoImg {
   margin-top: -8px;
+}
+
+.fotawesomeGlobe {
+  color: white;
 }
