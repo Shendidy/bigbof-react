@@ -17,7 +17,7 @@ class Header extends Component {
         <div className="navbarLinks">
           <div className="languageDiv">
             <div className="fontawesomeGlobe">
-              <FontAwesomeIcon icon="globe" />
+              <FontAwesomeIcon icon="globe" /> <small>{this.props.selLang}</small>
             </div>
             {this.props.selCol}
           </div>

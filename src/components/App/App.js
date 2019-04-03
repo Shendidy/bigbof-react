@@ -23,12 +23,11 @@ class App extends Component {
   }
 
   handleChange(e) {
-    this.setState({ language : e.target.value });
+    this.setState({ language: e.target.value });
   }
 
   render() {
     let selCol = <select onChange={this.handleChange}>
-      <option defaultValue="english" disabled selected>{text[6][this.state.language]}</option>
       <option value="arabic">عربى</option>
       <option value="bangla">বাংলা</option>
       <option value="bulgarian">български</option>
@@ -37,7 +36,7 @@ class App extends Component {
       <option value="czech">čeština</option>
       <option value="danish">dansk</option>
       <option value="dutch">Nederlands</option>
-      <option value="english">English</option>
+      <option value="english" selected>English</option>
       <option value="filipino">filipino</option>
       <option value="finnish">Suomalainen</option>
       <option value="french">français</option>
@@ -77,13 +76,14 @@ class App extends Component {
     </select>;
 
     // Message for people accessing the console after loading the page.
+    console.log(`Current language is ${this.state.language}`)
     console.log(`%c${text[1][this.state.language]}\n\n%c${text[2][this.state.language]}\n\n${text[3][this.state.language]}\n\n\n${text[4][this.state.language]}\n${text[5][this.state.language]}\n\n`, "color: red; font-size: 35px;", "color: blue; font-size: 15px;");
 
     return (
       <div className="mainContainer">
         <div className="appContainer">
           <div className="navbarDiv">
-            <Header lang={this.state.language} selCol={selCol}/>
+            <Header lang={this.state.language} selCol={selCol} selLang={text[6][this.state.language]}/>
           </div>
           <div className="freeText">
             <table className="freePlayTable">
