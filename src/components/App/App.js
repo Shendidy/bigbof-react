@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 import Header from '../Header/Header';
 import Footer from '../Footer/Footer';
+import LeftBody from '../LeftBody/LeftBody'
+import TopRightBody from '../TopRightBody/TopRightBody'
+import MainRightBody from '../MainRightBody/MainRightBody'
 import Ipsum from '../Ipsum/Ipsum';
 import text from '../../languages/text';
 import './App.css';
@@ -90,11 +93,11 @@ class App extends Component {
             <Header lang={this.state.language} selCol={selCol} selLang={text[6][this.state.language]}/>
           </div>
           <div className="leftBody scrollable">
-            <Ipsum />
+            <LeftBody />
           </div>
           <div className="rightBody">
             <div className="rightTopContent scrollable">
-             <Ipsum />
+             <TopRightBody />
             </div>
             <div className="rightMainContent scrollable">
               <div className="freeText">
@@ -108,7 +111,7 @@ class App extends Component {
                 </table>
               </div>
               <hr />
-              <Ipsum />
+              <MainRightBody />
             </div>
           </div>
           <div className="footerDiv">
