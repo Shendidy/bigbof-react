@@ -1,10 +1,15 @@
 import React, { Component } from 'react';
 import Ipsum from '../Ipsum/Ipsum';
+import './MainRightBody.css';
 
 class MainRightBody extends Component {
   render() {
     return (
-      <Ipsum />
+      <div>
+        <div className="facebook-winners-comments">
+        </div>
+        <Ipsum />
+      </div>
     )
   }
 }

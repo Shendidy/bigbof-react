@@ -1,0 +1,8 @@
+.facebook-winners-comments {
+  width: 90%;
+  min-height: 150px;
+  /* background-color: red; */
+  margin: auto;
+  border: solid black 1px;
+  box-shadow: 5px 8px 24px 4px #2689f2;
+}

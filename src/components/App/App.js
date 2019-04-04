@@ -4,7 +4,6 @@ import Footer from '../Footer/Footer';
 import LeftBody from '../LeftBody/LeftBody'
 import TopRightBody from '../TopRightBody/TopRightBody'
 import MainRightBody from '../MainRightBody/MainRightBody'
-import Ipsum from '../Ipsum/Ipsum';
 import text from '../../languages/text';
 import './App.css';
 
@@ -31,7 +30,7 @@ class App extends Component {
 
   render() {
     // Don't show errors in console!
-    console.warn = console.error = () => {};
+    // console.warn = console.error = () => {};
 
     let selCol =
       <select onChange={this.handleChange}>
@@ -43,7 +42,7 @@ class App extends Component {
       <option value="czech">čeština</option>
       <option value="danish">dansk</option>
       <option value="dutch">Nederlands</option>
-      <option value="english" selected>English</option>
+      <option defaultValue="english">English</option>
       <option value="filipino">filipino</option>
       <option value="finnish">Suomalainen</option>
       <option value="french">français</option>
