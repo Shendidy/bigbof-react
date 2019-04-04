@@ -88,16 +88,6 @@ class App extends Component {
           <div className="navbarDiv">
             <Header lang={this.state.language} selCol={selCol} selLang={text[6][this.state.language]}/>
           </div>
-          <div className="freeText">
-            <table className="freePlayTable">
-              <tbody>
-                <tr>
-                  <td><h2>{text[8][this.state.language]}</h2></td>
-                  <td><small>{text[9][this.state.language]}</small></td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
           <div className="leftBody scrollable">
             <p>The standard Lorem Ipsum passage, used since the 1500s
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
@@ -152,6 +142,17 @@ class App extends Component {
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
             </div>
             <div className="rightMainContent scrollable">
+              <div className="freeText">
+                <table className="freePlayTable">
+                  <tbody>
+                    <tr>
+                      <td><h2>{text[8][this.state.language]}</h2></td>
+                      <td><small>{text[9][this.state.language]}</small></td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <hr />
             <p>The standard Lorem Ipsum passage, used since the 1500s
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
 

@@ -1,11 +1,7 @@
 import React, { Component } from 'react';
-// import App from '../App/App';
 import './header.css';
-// import text from '../../languages/text';
-
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
-// function Header(props) {
 class Header extends Component {
 
   render() {
